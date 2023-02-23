@@ -1,0 +1,20 @@
+<div class="login-box">
+  <form method="get" action="#">
+  <mat-form-field class="email-form-field">
+    <mat-label>E-mail</mat-label>
+    <input matInput type="email" [(ngModel)]="value">
+    <button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+      <mat-icon>close</mat-icon>
+    </button>
+  </mat-form-field>
+  <mat-form-field class="senha-form-field">
+    <mat-label>Senha</mat-label>
+    <input matInput type="password" [(ngModel)]="value">
+    <button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+      <mat-icon>close</mat-icon>
+    </button>
+  </mat-form-field>
+  <button mat-button class="btn-login">entrar</button>
+  </form>
+</div>
+

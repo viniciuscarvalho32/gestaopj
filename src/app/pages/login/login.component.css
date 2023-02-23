@@ -1,0 +1,23 @@
+.login-box {
+  width: 600px;
+  height: 400px;
+  flex-wrap: wrap;
+  background-color: rgb(235, 235, 235);
+  padding-top: 2em;
+  box-shadow: 3px 3px 20px gray;
+  border-radius: 0.5em;
+}
+
+.email-form-field,.senha-form-field {
+  font-size: 15pt;
+  display: flex;
+  width: 80%;
+  height: 20%;
+  margin: auto;
+}
+.btn-login {
+  font-size: 16pt;
+  display: flex;
+  width: 30%;
+  margin: auto;
+}
